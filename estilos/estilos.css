@@ -212,3 +212,16 @@ footer{
     display: flex;
     justify-content: flex-start;
  }
+
+ footer ul {
+    list-style: none;
+ }
+
+ .boton-footer {
+    text-decoration: none;
+ }
+
+ .listado {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
