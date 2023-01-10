@@ -5,13 +5,9 @@ body {
    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-header{
-    padding:20px 0;
-   
-}
 
-.contacto{
-   
+header{
+    padding:20px 0; 
 }
 
 .container img {
@@ -25,6 +21,7 @@ header{
 .logo {
     width: 120px;
     padding: 30px;
+
 }
  
 header nav {
@@ -40,6 +37,7 @@ header ul {
     display: flex;
     gap: 200px;
 }
+
  .container2  {
     list-style: none;
     padding: 10px;
@@ -51,12 +49,12 @@ header ul {
     text-decoration: none;
     list-style: none;
     font-size: 30px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botom:hover{
-    scale: 1.1;
     color: #eef1ef;
+    transition: 0.5s;
 }
 
 .acomodo {
@@ -69,6 +67,7 @@ header ul {
 .boton-promocion{
     text-decoration: none;
 }
+
 
 .promocion {
     font-size: 15px;
@@ -208,6 +207,10 @@ footer{
     padding: 20px;
  }
 
+ .cambio:hover {
+    transition: 0.1s;
+    opacity: 0.6;
+ }
  .container3 .redes {
     display: flex;
     justify-content: flex-start;
@@ -219,9 +222,27 @@ footer{
 
  .boton-footer {
     text-decoration: none;
+    color: #080808;
+ }
+
+ .boton-footer:hover{
+   color: aqua;
+   transition: 0.2s;
  }
 
  .listado {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    text-align: center;  
  }
+
+ .lista li {
+    padding: 20px;
+ }
+
+.servicios h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
