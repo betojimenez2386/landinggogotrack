@@ -196,20 +196,16 @@ header ul {
 }
 
 footer{ 
-
     padding: 30px;
     height: 50vh;
     background-color: rgb(243, 242, 242);
     width: auto;
-    margin: auto 0;
-
- 
 }
 
 
 .redes img {
     width: 50px;
-    padding: 30px;
+    padding: 20px;
  }
 
  .container3 .redes {
