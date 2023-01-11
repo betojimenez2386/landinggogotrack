@@ -6,21 +6,22 @@ body {
 
 main{
     background-image: url(../assets/GOGO_TRACK__Mesa\ de\ trabajo\ 1.jpg);
-    background-size: auto;
+    background-size: contain;
    background-repeat: no-repeat;
+
 }
 header{
-    padding:10px 0; 
+    margin: 0 auto;
     background-color: rgb(240, 202, 7);
     height: 20vh;
+    border: 0;
 }
+
+
 
 .container img {
     width: 100%;
-    margin:0 auto;
-    max-width: 1200px;
-    height: 120px;
-    
+    margin:0 auto; 
 }
       
 
@@ -80,9 +81,9 @@ header ul {
 
 .promocion {
     font-size: 20px;
-    color: #fff;
+    color: rgb(13, 13, 12);
     border-radius: 10px;
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(13, 213, 227);
     width: fit-content;
     padding: 10px;
 }
@@ -133,12 +134,6 @@ header ul {
     font-size: 15px;
 }
 
-.imagen-rastreo img {
-    width: 1200px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 10px 19px 10px #00000040;
-}
 
 .contenedor {
     max-width: 1200px;
@@ -157,7 +152,8 @@ header ul {
 .nuestros{
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 35px;
+    color: aqua;
 }
 
 .boton-submit{
@@ -204,6 +200,7 @@ header ul {
 }
 
 footer{ 
+    margin: 0 auto;
     padding: 30px;
     height: 50vh;
     background-color: rgb(189, 167, 76);
