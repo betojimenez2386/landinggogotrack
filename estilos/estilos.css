@@ -1,6 +1,4 @@
 body {
-      
-   
    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -21,7 +19,13 @@ header{
     width: 100%;
     margin:0 auto; 
 }
-      
+
+/*@media screen & (max-width: 768px){
+    .container  {
+        width: 100%;
+        margin:0 auto; 
+}
+}*/
 .logo {
     width: 100px;
     padding: 30px;
@@ -34,12 +38,6 @@ header nav {
     align-items: center;
     padding: 10px;
 }
-/*@media (min-width: 1080px) {
-    header nav {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 10px;
-    }*/
 
 header ul {
     list-style: none;
@@ -154,12 +152,12 @@ section .contenido-principal {
     grid-template-columns: 2fr 1fr;
 }
 
-@media (min-width: 768px){
+/*@media (min-width: 768px){
  section .contenido-principal {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-}
+}*/
 
 .nuestros{
     text-align: center;
