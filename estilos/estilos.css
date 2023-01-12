@@ -33,14 +33,21 @@ header nav {
     justify-content: left;
     align-items: center;
     padding: 10px;
-
 }
+/*@media (min-width: 1080px) {
+    header nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }*/
 
 header ul {
     list-style: none;
     display: flex;
     gap: 200px;
 }
+
+
 
  .container2  {
     list-style: none;
@@ -140,6 +147,11 @@ article{
     width: 90%; 
     margin: 0 auto;
     padding: 50px;
+}
+
+section .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 @media (min-width: 768px){
